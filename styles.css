@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+
+}
+
+:root{
+    --font : "Montserrat", sans-serif;
+
+}
+
+.header{
+    display: flex;
+    margin-top: 1em;
+    margin-left: 7em;
+}
+
+input{
+
+    width: 14em;
+    height: 22px;
+    padding: 6px 12px;
+    font-weight: 300;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+
+}
+
+.srch-btn{
+position: relative;
+left: 650px;
+}
+
+i[class*="mag"]{
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+i[class*="cart"]{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.header2 > ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    padding: 16px 0px;
+    position: relative;
+    left:-120px;
+}
+
+.header > ul > li{
+    margin-left: 2em;
+    font-size: 14px;
+    font-weight: 400;
+    line-height:21px;
+
+}
+
+.bg-1{
+    height: 85vh;
+    background-image: url(./assets/bg-1.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.kandala-banner{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 60px;
+}
+
+.kandala-banner > p{
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 60px;
+    font-family: "Libre Caslon Text", serif;
+    color: white;
+    width: 610px;
+    height:180px;
+
+}
+
+.kandala-banner > button{
+    border: none;
+    color:#4F1128;
+    font-size: 16px;
+    padding:12px 16px;
+    margin: 8px 0px 0px;
+    font-weight: 700; width: 120px;
+    height: 50px;
+   
+}
+
+.row{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    align-items:center;
+    background-color: #F7F7F7;
+    font-size: 14px;
+
+}
+
+.row > .item  {
+margin-top: 50px;
+margin-bottom: 50px;
+
+
+}
+
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:60px;
+}
+
+.heading > p{
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 28px;
+}
+.items{
+    margin: 40px 0px;
+
+
+}
+
+.items > img{
+    width: 120px;
+    margin-bottom:15px ;    
+
+
+}
+
+.collections {
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Three columns */
+
+}
+
+
+
