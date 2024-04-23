@@ -258,13 +258,27 @@ margin-bottom: 50px;
 .bg4 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    box-sizing: border-box;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom:80px ;
+    
 }
 
-.bg4 > img {
-    height: 250px;
-    width: 350px;
+.card-body > img {
+    width: 100%;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
 }
+
+.card-body{
+    box-shadow: 1px 1px 100px lightgray;
+    width: 400px;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+}
+
+
 
 .bg4 > p {
     text-align: center;
@@ -275,16 +289,27 @@ margin-bottom: 50px;
 
 }
 
-.bg4-cards > p:nth-child(2) {
-    font-size:14px;
-    font-weight: 700;
-    padding: 10px 0px;
+
+
+.bg4-heading{
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom:30px ;
 }
 
-.bg4-cards > p:nth-child(1) {
-    font-size:16px;
-    font-weight: 400;
+.card-content{
+    padding :15px;
+    box-sizing: border-box;
 }
+
+.card-content > p{
+    padding-bottom: 10px;
+}
+
+
 
 
 
