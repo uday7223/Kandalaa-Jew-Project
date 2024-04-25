@@ -9,6 +9,23 @@
     --font : "Montserrat", sans-serif;
 }
 
+.buttons{
+    border: none;
+    color:#4F1128;
+    font-size: 16px;
+    padding:12px 16px;
+    margin: 8px 0px 0px;
+    font-weight: 700; 
+    width: 120px;
+    height: 40px;
+}
+
+.heading-sim{
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
 .header{
     display: flex;
     margin-top: 1em;
@@ -224,14 +241,11 @@ margin-bottom: 50px;
 }
 
 .bg3{
-    height: 60vh;
     background-image: url(./assets/bg-3.png);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+   }
 
 .bg3-heading{
+   
     color: white;
     position: relative;
     top: 150px;
@@ -245,13 +259,9 @@ margin-bottom: 50px;
 }
 
 .bg3-heading > button {
-    border: none;
-    color:#4F1128;
-    font-size: 16px;
-    padding:12px 16px;
-    margin: 8px 0px 0px;
-    font-weight: 700; width: 120px;
-    height: 50px;
+    background-color:#4F1128;
+    color: white;
+    
    
 }
 
@@ -308,6 +318,187 @@ margin-bottom: 50px;
 .card-content > p{
     padding-bottom: 10px;
 }
+
+.bg-comm{
+    height:60vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg5{
+    background-image: url(./assets/bg-5.png);
+    
+}
+
+.bg5-con{
+    position: relative;
+    top: 130px;
+    margin-left: 100px;
+}
+
+.bg5-con > p {
+
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+    width: 500px;
+    line-height: 53px;
+    font-family: "Libre Caslon Text", serif;
+
+}
+
+.bg5-con >  button{
+    background-color:#4F1128;
+    color: white;
+}
+
+.bg6{
+    height:100vh;
+    background-color:#919095;
+    text-align: center !important;
+}
+
+.bg6-heading > p {
+    font-size: 40px;
+    font-weight:400;
+    line-height: 30px;
+    color: white;
+    box-sizing: border-box;
+    position: relative;
+    top: 50px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 24px;
+    padding: 10px;
+    width: 88%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  .grid-container > div {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 190px;
+  }
+  
+  .item2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  
+  .grid-container > .item4 {
+
+    
+
+  }
+
+  .grid-container > .item4 :nth-child(4) {
+   margin: 0 !important;
+    
+  }
+
+.grid-container > .item :nth-child(2){
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container > .item :nth-child(3){
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.grid-container > .item :nth-child(4){
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color :black;
+    text-decoration: none;
+    position: relative;
+    bottom: 0px;
+
+}
+
+.grid-container > .item2 :nth-child(2){
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 93px;
+}
+
+.grid-container > .item2 :nth-child(3){
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+
+
+.border-bottom{
+    border-bottom: 2px solid black;
+    padding-bottom: 3px;
+}
+
+footer{
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    box-sizing: border-box;
+    margin-left:50px ;
+}
+
+footer > img {
+    width: 214px;
+    height: 144px;
+    padding: 0px 90px ;
+}
+
+footer > ul {
+    width : 220px;
+    list-style: none;
+}
+
+footer > ul > * {
+    padding-bottom: 10px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height :21px;
+
+}
+
+footer > ul > p {
+    padding-bottom: 20px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height : 24px;
+}
+.footer-con > p {
+    border-top: 1px solid gray;
+    text-align:center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height :21px;
+    padding: 20px 0px;
+}
+
+
 
 
 
